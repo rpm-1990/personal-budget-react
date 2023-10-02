@@ -8,12 +8,12 @@ import
     Routes,
   } from "react-router-dom";
 
-import AboutPage from './AboutPage/AboutPage';
-import LoginPage from './LoginPage/LoginPage';
+import Aboutpage from './Aboutpage/Aboutpage';
+import Loginpage from './Loginpage/Loginpage';
 import Menu from './Menu/Menu';
-import HomePage from './HomePage/HomePage';
-import Footer from './Footer/footer';
-import Hero from './Hero/hero';
+import Homepage from './Homepage/Homepage';
+import Footer from './Footer/Footer';
+import Hero from './Hero/Hero';
 
 function App() {
   return (
@@ -23,9 +23,9 @@ function App() {
       <div className="main Container">
         
         <Routes>
-          <Route path="/About" element={<AboutPage/>}/>
-          <Route path="/Login" element={<LoginPage/>}/>
-          <Route path="/" element={<HomePage/>} />
+          <Route path="/About" element={<Aboutpage/>}/>
+          <Route path="/Login" element={<Loginpage/>}/>
+          <Route path="/" element={<Homepage/>} />
         </Routes>
       </div>
       <Footer/>
